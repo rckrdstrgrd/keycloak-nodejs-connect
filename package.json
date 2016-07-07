@@ -32,7 +32,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "keycloak-auth-utils": "0.1.1"
+    "keycloak-auth-utils": "keycloak/keycloak-nodejs-auth-utils"
   },
   "devDependencies": {
     "express": "^4.13.4",
