@@ -18,10 +18,10 @@ interface KeycloakConnectStatic {
 declare namespace KeycloakConnect {
 
   interface KeycloakConfig {
-    'confidential-port': string|number
+    'confidential-port'?: string|number
     'auth-server-url': string
     'resource': string
-    'ssl-required': string
+    'ssl-required'?: string
     'bearer-only'?: boolean
     realm: string
   }
